@@ -5,7 +5,7 @@ from tsp_graph_init import Route
 from tsp_graph_init import Affichage
 
 class TSP_ACO:
-    def __init__(self, graph, alpha=0.1, beta=0.9,rho =0.1):
+    def __init__(self, graph, alpha=0.1, beta=0.9,rho =0.15):
         self.graph = graph
         self.alpha = alpha
         self.rho = rho
